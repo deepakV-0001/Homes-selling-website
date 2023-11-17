@@ -1,0 +1,120 @@
+.abt-middle-container{
+    background: url(../../Home/HowItWorks/bg-pattern-dot.png) 0 0 repeat #fff3f0 !important;
+    height: max-content;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.abt-middle-header{
+    
+    display: block;
+    width: 80vw;
+    margin: 0 auto;
+ 
+}
+.abt-middle-header h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #3d6c6f;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.abt-middle-header p{
+    font-size: 17px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+.abt-middle-bottom-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    margin: 40px auto;
+}
+
+.abt-middle-bottom-box{
+    background: #fff;
+    border: 1px solid #fae1dc;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px #ddd;
+    padding: 25px;
+    text-align: center;
+    display: grid;
+    grid-row-gap: 29px;
+    width: 13vw;
+    justify-content: center;
+    justify-items: center;
+  
+    height: max-content;
+    margin: auto;
+}
+.abt-middle-bottom-box>span img{
+    color: #cf3c1d;
+  width: 60px;
+}
+
+.abt-middle-header h2>span{
+    color: #cf3c1d;
+}
+.abt-middle-bottom-box h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #cf3c1d;
+}
+.abt-middle-bottom-box p{
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    color: rgb(91, 86, 86);
+    line-height: 1.7;
+}
+.abt-middle-bottom-box a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3d6c6f;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    border-color: #3d6c6f;
+    border-radius: 100px;
+    outline: none;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    font-weight: 600;
+    width: 130px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.abt-middle-bottom-box a:hover{
+    background: #fff;
+    color: #3d6c6f;
+    border:2px solid #3d6c6f;
+}
+
+ @media screen and (max-width: 1024px) and (min-width:768px){
+    .abt-middle-bottom-boxes{
+        width: 90%;
+    }
+ }
+
+ @media screen and (max-width: 767px) and (min-width:575px){
+    .abt-middle-header{
+        width: 84vw;
+     }
+     .abt-middle-bottom-boxes{
+        width: 85%;
+        gap: 15px;
+     } 
+     .abt-middle-bottom-box{
+        width: 40%;
+      
+     }
+    
+ }
+ @media screen and (max-width: 574px){
+    .abt-middle-bottom-box{
+        width: 90%;
+      
+     }
+ }
+ 

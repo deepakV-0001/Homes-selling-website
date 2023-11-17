@@ -1,0 +1,45 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.frequently-container::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50%;
+    z-index: 0;
+    width: 100%;
+    background: url(../HowItWorks/bg-pattern-dot.png) 0 0 repeat #f8f8f8 !important;
+}
+.frequently-container{
+    padding-top: 30px;
+    position: relative;
+    /* margin-bottom: 50vh; */
+}
+.frequently-title{
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 10px;
+}
+.frequently-title h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.frequently-header{
+    position: relative;
+    text-align: center;
+}
+.frequently-title p{
+    letter-spacing: 1.1px;
+}
+.freq-arrow-btn{
+    display: flex;
+    justify-content: center;
+}
+.accordian-component{
+    margin-top: 40px;
+
+}

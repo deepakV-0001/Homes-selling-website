@@ -1,0 +1,32 @@
+.ownership-container-main{
+    background: url(../Ownership/own-back.jpg) center top no-repeat;
+    background-size: cover;
+    height: 15vh;
+    position: relative;
+     padding: 30px 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.ownership-heading h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 53px;
+    text-transform: capitalize;
+}
+.own-arrow-btn{
+    margin-top: 30px;
+     display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px){
+.ownership-container-main{
+ height: max-content;
+ padding: 40px 40px;
+}
+
+} 

@@ -1,0 +1,135 @@
+.main-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 45%;
+    width: 100%;
+    background: url(../HowItWorks/bg-pattern-dot.png) 0 0 repeat #f8f8f8 !important;
+}
+
+.main-container {
+    position: relative;
+}
+
+.main-container-boxes {
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px lightgray;
+    border-radius: 15px;
+    padding: 40px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    width: 68vw;
+    height: max-content;
+    border: 0.1px solid #f0d1cb;
+}
+
+.main-heading {
+    position: relative;
+    width: 100%;
+
+}
+
+.main-heading h1 {
+    font-weight: 800;
+    margin: 0 auto;
+    color: #3d6c6f;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+
+.main-heading h1>span {
+    color: #bf3f27;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    left: 12%;
+    top: 25%;
+    height: 2px;
+    width: 70%;
+    background: #bf3f27;
+
+}
+
+.box-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d6c6f;
+    margin-bottom: 10px;
+}
+
+.box-text h3>span {
+    padding-left: 10px;
+    color: #bf3f27;
+    font-weight: bolder;
+}
+
+.box-text p {
+    font-size: 14px;
+    width: 14vw;
+    word-spacing: 2px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100%;
+    
+}
+
+.box>span {
+    background: #fff;
+    border: 1px solid #ededed;
+    box-shadow: 2px 1px 5px #ddd;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+
+
+}
+
+.box>span img {
+    width: 50px;
+}
+
+.explore-btn {
+  margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 767px){
+    .main-container-boxes{
+        flex-direction: column;
+      }
+      .box::before{
+        display: none;
+      }
+      .box{
+        width: 80%;
+        margin: 0 auto;
+     }
+     .box-text p{
+        width: 100%;
+     }
+ 
+} 

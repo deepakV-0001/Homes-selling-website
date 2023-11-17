@@ -1,0 +1,215 @@
+.banner-container {
+    width: 100%;
+    position: relative;
+}
+
+
+
+.banner-img {
+    background: url(/src/Components/Home/Banner/banner-img.jpg) center top no-repeat;
+    height: calc(85vh);
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.banner-content {
+    position: absolute;
+    bottom: 80px;
+    left: 27px;
+    background: #3f6d70;
+    padding: 30px 28px;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 85%;
+
+}
+
+.banner-content-text {
+    width: 90%;
+}
+
+.banner-content-text h1 {
+    width: 80%;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.banner-content-text p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.banner-content-btns li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 15px 6px 15px;
+}
+
+.banner-content-btns {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.banner-content a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.banner-content-signup a,
+.banner-content-signup svg {
+    color: #3d6c6f;
+}
+
+.banner-content-signup>span>svg,
+.banner-content-learn-more>span>svg {
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+.banner-content-signup {
+    background-color: white;
+    display: flex;
+    gap: 13px;
+    border-radius: 20px;
+
+}
+
+.banner-content-signup :hover {
+    opacity: 0.5;
+
+}
+
+.banner-content-signup a {
+    font-weight: 600;
+}
+
+.banner-content-learn-more {
+    color: white;
+    height: 30px;
+    background-color: #bf3f27;
+    display: flex;
+    gap: 13px;
+    padding: 10px 20px 6px 20px;
+    border-radius: 30px;
+    transition: all 0.8s ease;
+}
+
+.banner-content-learn-more:hover {
+    background-color: white;
+    transition: all 0.8s ease;
+
+}
+
+.banner-content-learn-more:hover a {
+    color: #bf3f27;
+    transition: all 0.8s ease;
+}
+
+.banner-content-learn-more:hover span {
+    color: #bf3f27;
+    transition: all 0.8s ease;
+
+}
+
+.banner-content-learn-more a {
+    color: white;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 767px)  and (min-width:425px){
+    .banner-content {
+        left: 16px;
+        right: 16px;
+        width: 95%;
+        bottom: 100px;
+        top: 93px;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        background: #3f6d70bd;
+    }
+
+    .banner-content-text {
+        width: 95%;
+    }
+
+    .banner-content-text h1 {
+        width: 90%;
+    }
+
+    .banner-content-signup a,.banner-content-learn-more a  {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 424px) and (min-width: 375px){
+    .banner-content {
+        left: 16px;
+        right: 16px;
+        width: 95%;
+        bottom: 17px;
+        top: 93px;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        background: #3f6d70bd;
+    }
+    .banner-content-text {
+        width: 95%;
+    }
+
+    .banner-content-text h1 {
+        width: 90%;
+    }
+    .banner-content-signup a,
+    .banner-content-learn-more a {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .banner-content {
+        left: 16px;
+        right: 16px;
+        width: 95%;
+        bottom: 17px;
+        top: 93px;
+        max-width: -moz-fit-content;
+        max-width: fit-content;
+        background: #3f6d70bd;
+    }
+  
+    .banner-content-text {
+        width: 100%;
+    }
+
+    .banner-content-text h1 {
+        width: 100%;
+    }
+
+    .banner-content-signup a,
+    .banner-content-learn-more a {
+        font-size: 11px;
+    }
+    .banner-content-btns{
+        gap: 7px;
+        width: 101%;
+    }
+    .banner-content-btns li{
+        padding: 2px 11px 2px 15px;
+    }
+   
+    
+}

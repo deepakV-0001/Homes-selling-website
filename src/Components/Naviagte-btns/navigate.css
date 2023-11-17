@@ -1,0 +1,19 @@
+.navigate-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.navigate-container a{
+    background-color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    border: 1px solid lightgray;
+    padding: 7px 18px;
+    text-decoration: none;
+}
+.home-blue:hover{
+    color: #bf3f27;
+    transition: all 0.6s ease;
+}

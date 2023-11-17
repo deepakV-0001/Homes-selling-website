@@ -1,0 +1,64 @@
+.priority-container::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50%;
+    width: 100%;
+    background: url(../HowItWorks//bg-pattern-dot.png) 0 0 repeat #f8f8f8 !important;
+}
+.priority-container{
+    position: relative;
+   
+}
+.priority-heading{
+    display: flex;
+    padding-top: 30px;
+    gap: 5px;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+   
+}
+.priority-header-text{
+    text-align: center;
+    margin-bottom: -30px;
+    position: relative;
+}
+.priority-header-text p{
+    letter-spacing: 1.1px;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+  
+.priority-arow-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* @media screen and (max-width: 1439px) and (min-width: 1024px){
+    .priority-container{
+        margin-bottom: -21vh;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 348px){
+
+    .priority-heading h1{
+        width: 104vw;
+        font-size: 27px;
+    }
+    .priority-header-text  p{
+        margin-bottom: -43px;
+    }
+} */
+
+
+
+
+
+
+
+

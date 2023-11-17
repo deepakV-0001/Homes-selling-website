@@ -1,0 +1,55 @@
+.agents-header{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+.agents-header h1{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #3d6c6f;
+    margin-bottom:14px;
+}
+.agents-header h1>span{
+    color: #cf3c1d;
+}
+.agents-header p{
+    font-size: 16px;
+    color: #626060;
+    letter-spacing: 1.1px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.agents-svg img{
+  width: 72vw;
+}
+.agents-svg{
+    display: flex;
+    justify-content: center;
+}
+.agents-banner-box{
+   position: relative;
+   display: grid;
+   margin-top: 30px;
+   justify-content: center;
+}
+.criteria-section{
+    margin-top: 50px;
+}
+.collaboration-section{
+    margin-top: 120px;
+}
+.agent-accordian-section{
+    margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 767px){
+   .agents-svg img{
+    width: 90%;
+   }
+   
+} 

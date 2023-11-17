@@ -1,0 +1,133 @@
+.blog-col-1-search{
+    border: 1px solid #d4d4ee;
+    border-radius: 5px;
+    height: 45px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    position: relative;
+
+}
+.blog-col-1-search input{
+    width: 100%;
+    border: 0;
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.blog-col-1-search button{
+    outline: none;
+    background-color: white;
+    border: none;
+}
+.blog-col-1-search button>svg{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.blog-col-1-cate{
+    background: #e7edf8;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+.blog-col-1-cate h3,.blog-popular-cate h3,.blog-recent-post h3{
+    font-size: 20px;
+    color: #4d446b;
+    margin-bottom: 15px;
+    font-weight: 600;
+
+}
+.blog-col-1-cate ul.blog-popular-cate ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.blog-col-1-cate ul li{
+    list-style-type: none;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    color: rgb(64, 63, 63);
+    margin-bottom: 10px;
+    position: relative;
+
+    padding-left: 18px;
+}
+.blog-popular-cate ul li{
+    list-style-type: none;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    position: relative;
+    padding-left: 18px;
+    background: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #222;
+}
+.blog-col-1-cate ul li::before{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #bf3f27;
+    position: absolute;
+    left: 0;
+    border-radius: 100%;
+    top: 6px;
+}
+.blog-popular-cate{
+    background: #e7edf8;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+
+.blog-recent-post{
+    background: #e7edf8;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+a{
+    text-decoration: none;
+}
+.blog-post-cols{
+    position: relative;
+    padding-left: 66px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.blog-post-cols a img{
+    width: 58px;
+    height: 53px;
+    border-radius: 5px;
+   
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 4px solid #fff;
+}
+.blog-post-cols span{
+    font-size: 14px;
+    margin-top: 0;
+    display: block;
+}
+.recent-box>span{
+    margin-bottom: 5px;
+}
+.blog-post-cols a h2{
+    font-size: 15px;
+    color: #3d6c6f;
+    font-weight: 500;
+}
+

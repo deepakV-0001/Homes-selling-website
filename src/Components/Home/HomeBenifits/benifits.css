@@ -1,0 +1,123 @@
+.benefit-container {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+   
+
+
+
+}
+
+.benefit-img {
+    width: 27%;
+    height: max-content;
+    /* margin-left: 170px; */
+    border: 15px solid rgba(255, 253, 253, 0.899);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.benefit-img img {
+    width: 100%;
+}
+
+.benefit-text-content {
+    width: 38vw;
+}
+
+.benefit-main-text h4 {
+    background: #ffece8;
+    color: #bf3f27;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 18px;
+    margin-top: 23px;
+    font-size: 15px;
+
+}
+
+.benefit-main-text p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    word-spacing: 10;
+    letter-spacing: 1px;
+    color: rgb(69, 65, 65);
+
+    text-align: justify !important;
+}
+
+.benefit-heading {
+    display: flex;
+    gap: 15px;
+}
+
+.benefit-icon>span {
+
+    background: #ffece8;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.benefit-icon>span img {
+    width: 18px;
+    height: 18px;
+}
+
+.benefit-text>span {
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.benefit-text p {
+    font-size: 17px;
+    line-height: 26px;
+    width: 35vw;
+    text-align: justify;
+    margin-top: 20px;
+    word-spacing: 2px;
+    color: rgb(69, 65, 65);
+}
+
+.benefit-heading {
+    margin-bottom: 25px;
+}
+
+.know-more {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .benefit-container {
+        flex-direction: column;
+    }
+    .benefit-img {
+        width: 85%;
+        margin: 0 auto;
+        height: max-content;
+    }
+    .benefit-text-content {
+        width: 85%;
+        margin: 0 auto;
+    }
+     .benefit-text p {
+        width: 95%;
+    }
+} 

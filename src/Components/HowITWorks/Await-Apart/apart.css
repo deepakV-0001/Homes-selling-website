@@ -1,0 +1,117 @@
+.apart-container::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background: url(../../Home/HowItWorks/bg-pattern-dot.png) 0 0 repeat #f8f8f8 !important;
+}
+.apart-container{
+    position: relative;
+    margin-top: 80px;
+}
+.apart-row{
+    position: relative;
+    padding-top: 50px;
+}
+.apart-header{
+    text-align: center;
+}
+.apart-header h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #3d6c6f;
+    margin-bottom: 13px;
+}
+.apart-header h2>span{
+    color: #cf3c1d;
+}
+.apart-header p{
+    font-size: 15px;
+    width: 69vw;
+    margin: 0 auto;
+    letter-spacing: 1.1px;
+    line-height: 20px;
+    color: rgb(113, 110, 110);
+}
+.apart-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.apart-bottom-title{
+    background: #bf3f27;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    display: grid;
+    height: max-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #ddd;
+    grid-column-gap: 15px;
+}
+.td{
+    font-size: 16px;
+    padding: 15px 20px;
+    
+    display: flex;
+    text-align: center;
+   align-items: center;
+    letter-spacing: 1.1px;
+}
+.apart-bottom{
+    width: 75vw;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px #ddd;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+.apart-bottom-rows{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #ddd;
+    grid-column-gap: 15px;
+    height: max-content;
+
+}
+.td>svg{
+    font-size: 1.6rem;
+}
+.tt{
+    text-align: left;
+}
+.title-table{
+    font-weight: 700;
+    margin: 0 auto;
+}
+.td>svg{
+    margin: 0 auto;
+}
+@media screen and (max-width: 767px){
+    .apart-bottom{
+        width: 98%;
+    }
+    .apart-header p{
+        font-size: 14px;
+        width: 90%;
+        text-align: justify;
+        margin: 0 auto;
+        line-height: 23.1px;
+        letter-spacing: 1.1px;
+        color: rgb(60, 58, 58);
+    }
+    .apart-bottom-title{
+        height: max-content;
+    }
+    .apart-container::before{
+        height: 80vh;
+    }
+    .apart-bottom-rows{
+        height: max-content;
+    }
+} 
+
+

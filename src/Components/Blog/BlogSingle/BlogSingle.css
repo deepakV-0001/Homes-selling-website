@@ -1,0 +1,116 @@
+.single-blog-container{
+    margin-top: 15vh;
+    display: flex;
+    
+    gap: 40px;
+    width: 70vw;
+   margin: 20vh auto;
+   margin-bottom: -30vh;
+}
+.single-blog{
+    margin-bottom: 50px;
+    width: 100%;
+    background: #fff;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 1px 2px 5px #ddd;
+    border-radius: 10px;
+    border: 1px solid #eee;
+
+}
+.blog-comp-section{
+    width: 20vw;
+}
+.single-blog-img{
+    width: 51vw;
+}
+.single-blog-img img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 5px;
+
+  
+}
+.single-blog-theory{
+    width: 50vw;
+    margin:  0 auto;
+}
+.theory-header>span{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 12px;
+    display: block;
+    margin-bottom: 7px;
+    color: #777;
+}
+.theory-header h2{
+    color: #1E334E;
+    font-size: 23px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.theory-header p{
+    font-size: 16px;
+    color: #555;
+    letter-spacing: 1.1px;
+    line-height: 29px;
+    text-align: justify;
+}
+.theory-bottom{
+    margin-top: 60px;
+}
+.theory-col{
+    margin-bottom: 60px;
+}
+.theory-col h4{
+    color: #444;
+    margin-bottom: 40px;
+}
+.theory-col p{
+    font-size: 15px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+}
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px){
+   .single-blog-container{
+    width: 90vw;
+    margin: 11vh auto;
+   margin-bottom: -40vh;
+   }
+   .blog-comp-section{
+    width: 30vw;
+   }
+   .single-blog-img {
+    width: 453px;
+}
+
+}
+@media screen and (max-width: 767px) and (min-width: 348px){
+.single-blog-container{
+    flex-wrap: wrap;
+    width: 92vw;
+    margin: 10vh auto;
+    margin-bottom: -40vh;
+}
+.blog-comp-section {
+    width: 92vw;
+}
+.single-blog-img {
+    width: 358px;
+}
+.single-blog-theory {
+    width: 350px;
+    margin: 0 auto;
+}
+}

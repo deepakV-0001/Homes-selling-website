@@ -1,0 +1,40 @@
+.missionBottom-container-main {
+  background: #3d6c6f;
+  position: relative;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.missionBottom-heading h1 {
+  color: white;
+  width: 78vw;
+  text-align: center;
+  line-height: 1.7;
+ 
+  letter-spacing: 1.1px;
+
+}
+
+.missionBottom-heading {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+ 
+}
+.mission-bottom-arow-btn{
+  margin-top: 30px;
+ display: flex;
+ justify-content: center;
+ }
+@media (max-width:767px) {
+  .missionBottom-container-main{
+    height: max-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+ 

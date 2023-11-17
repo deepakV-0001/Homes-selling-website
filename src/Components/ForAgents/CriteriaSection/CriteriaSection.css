@@ -1,0 +1,76 @@
+.criteria-container::before{
+    content: "";
+    position: absolute;
+    height: 13%;
+    width: 100%;
+    background: url(../../Home/HowItWorks/bg-pattern-dot.png) 0 0 repeat #ffece8 !important;
+}
+.criteria-box{
+    padding: 50px 50px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #fae1dc;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px #ddd;
+    width: 66vw;
+    top: 33px;
+    margin: 0 auto;
+    height: max-content;
+   
+}
+.criteria-text-content{
+    margin-bottom: 35px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: -10vh; */
+}
+.criteria-text-content  h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #3d6c6f;
+    margin-bottom: 13px;
+}
+.criteria-text-content h2>span{
+    color: #cf3c1d;
+}
+.criteria-text-content p{
+    font-size: 17px;
+    width: 45vw;
+    color: #3d3c3c;
+    word-spacing: 3px;
+    line-height: 1.6;
+    letter-spacing: 1.1px;
+
+}
+.criteria-img img{
+    width: 100%;
+}
+.criteria-img{
+    width:20vw;
+    margin-top: 30px;
+   
+}
+.criteria-btn{
+   margin-top: 30px;
+}
+
+@media screen and (max-width: 767px){
+ .criteria-box{
+        grid-template-columns: 2fr;
+        grid-row-gap:61px;
+        height: max-content;
+        padding-top: 43px;
+    }
+    .criteria-text-content p{
+        width: 100%;
+    }
+    .criteria-img{
+        width: 100%;
+    }
+   
+}  

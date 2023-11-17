@@ -1,0 +1,34 @@
+.works-header {
+    content: "";
+    width: 100%;
+    background: url(../../Home//HowItWorks/bg-pattern-dot.png) 0 0 repeat #ebf1fb !important;
+    padding: 40px 0;
+
+}
+
+.header-container {
+    position: relative;   
+}
+
+.works-header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    width: 70vw;
+    flex-grow: 1;
+  
+    margin: 0 auto;
+}
+.top-margin{
+    height: 75px;
+}
+
+.works-header-content h2 {
+    font-size: 28px;
+    color: #3d6c6f;
+}
+
+.works-navigate-btns {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,76 @@
+.works-container {
+    position: relative;
+
+}
+
+.works-own-program {
+    content: "";
+    width: 100%;
+    background: url(../Home/HowItWorks/bg-pattern-dot.png) 0 0 repeat #fff3f0 !important;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: .1fr .65fr;
+    grid-column-gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.own-image {
+    width: 550px;
+}
+
+.own-image img {
+    width: 100%;
+}
+
+.own-text-content {
+    width: 35vw;
+}
+
+.own-text-heading h3 {
+    background: #ffece8;
+    color: #bf3f27;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 18px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.own-text-theory p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 27px;
+    color: #1c1c1c;
+    letter-spacing: 1.5px;
+}
+
+.works-middle-section {
+    margin-top: 8vh;
+}
+
+
+
+@media screen and (min-width:768px)and (max-width:970px) {
+    .own-image {
+        width: 400px;
+    }
+}
+
+@media (max-width:767px) {
+    .works-own-program {
+        grid-template-columns: 1fr;
+    }
+    .own-image{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .own-text-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
